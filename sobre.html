@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+     <meta charset="UTF-8"/>
+     <link rel="stylesheet" href="mercurio.css"/>
+     <title>Mercúrio</title>
+
+</head>
+
+<body>
+     
+    <input type="checkbox" id="chec">
+    <label for="chec">
+
+         <img src="nav5.png"/>
+
+    </label>
+     
+     <nav>
+         <ul>
+             <li><a href="mercurio.html">HOME</a></li>
+             <li><a href="turne.html">EVENTOS</a></li>
+             <li><a href="lancamentos.html">LANÇAMENTOS</a></li>
+             <li><a href="sobre.html">SOBRE NÓS</a></li>
+            
+         </ul>
+
+     </nav>
+
+     <article>
+
+    <div class="logo">
+
+        <img src="logo2.png"/>
+
+    </div>
+
+        <center>
+         <h1>Mercúrio Eventos , o melhor da música você encontra aqui</h1>
+
+        
+
+         <h3>Mercúrio é um site musical feito para compositores e artistas brasileiros de gêneros musicais diversos.
+             Foi criado em julho de 2007 pelo visionário do meio musical , Raphael, que em suas palavras disse "devemos dar mais valor a música brasileira"
+             , foi responsavel por bombar inúmeras músicas brasileiras pelo mundo.
+            
+         </h3>
+         
+            
+          
+
+
+        </center>
+
+      
+
+            
+     </article>
+
+     <script>
+            
+            
+
+             function typewriter(elemento) {
+              const textoArray = elemento.innerHTML.split('');
+              elemento.innerHTML = '';
+             textoArray.forEach((letra, i) => {
+               setTimeout(() =>elemento.innerHTML += letra, 75  * i);
+                });
+                 }
+
+
+const titulo = document.querySelector('h1')
+typewriter(titulo);
+
+</script>
+
+
+     </script>
+
+</body>
+</html>

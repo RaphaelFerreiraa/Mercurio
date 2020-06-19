@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+     <meta charset="UTF-8"/>
+     <link rel="stylesheet" href="mercurio.css"/>
+     <title>Mercúrio</title>
+
+</head>
+
+<body>
+     
+    <input type="checkbox" id="chec">
+    <label for="chec">
+
+         <img src="nav5.png"/>
+
+    </label>
+     
+     <nav>
+         <ul>
+             <li><a href="mercurio.html">HOME</a></li>
+             <li><a href="turne.html">EVENTOS</a></li>
+             <li><a href="lancamentos.html">LANÇAMENTOS</a></li>
+             <li><a href="sobre.html">SOBRE NÓS</a></li>
+            
+         </ul>
+
+     </nav>
+
+     <article>
+
+    <div class="logo">
+
+        <img src="logo2.png"/>
+
+    </div>
+
+        <center>
+         <h1>Mercúrio Eventos , o melhor da música você encontra aqui</h1>
+
+        
+
+         <h3>A Mercúrio entrou em uma parceria com o rapper Will, confira as músicas de Will com os rappers da ACA$A</h3>
+         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/I0mCFkZKAx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ELhzUjvrxus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+
+      
+
+            
+     </article>
+
+     <script>
+            
+            
+
+             function typewriter(elemento) {
+              const textoArray = elemento.innerHTML.split('');
+              elemento.innerHTML = '';
+             textoArray.forEach((letra, i) => {
+               setTimeout(() =>elemento.innerHTML += letra, 75  * i);
+                });
+                 }
+
+
+const titulo = document.querySelector('h1')
+typewriter(titulo);
+
+</script>
+
+
+     </script>
+
+</body>
+</html>
